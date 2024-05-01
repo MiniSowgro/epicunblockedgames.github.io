@@ -1,7 +1,7 @@
 var button = document.getElementById("button")
 
 function clicked() {
-location.href = 'https://youtube.com'
+window.alert("No games yet!")
 }
 
 button.addEventListener('click', clicked)
