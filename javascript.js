@@ -1,7 +1,7 @@
 var button = document.getElementById("button")
 
 function clicked() {
-window.alert("No games yet!")
+window.alert("Waiting in queue... please don/t close this window.")
 }
 
 var img = document.createElement("img")
