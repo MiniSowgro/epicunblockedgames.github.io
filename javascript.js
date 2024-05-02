@@ -1,5 +1,9 @@
 var button = document.getElementById("button")
 
+function getRandomArbitrary(min, max) {
+  return Math.random() * (100 - 1) + 1;
+}
+
 function clicked() {
 window.alert("Waiting in queue... do not close this window.")
 }
