@@ -1,11 +1,11 @@
 var button = document.getElementById("button")
 
 function getRandomArbitrary(min, max) {
-  return Math.random() * (100 - 1) + 1;
+  return Math.random() * (max - min) + min;
 }
 
 function clicked() {
-window.alert("Waiting in queue... do not close this window.")
+  window.alert("Waiting in queue... do not close this window.")
 }
 
 var img = document.createElement("img")
