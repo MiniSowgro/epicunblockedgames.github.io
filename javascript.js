@@ -13,3 +13,9 @@ img.src = "https://staticg.sportskeeda.com/editor/2024/01/439e4-17042428312455-1
 document.body.appendChild(img)
 
 button.addEventListener('click', clicked)
+
+gambleNum = Math.random(1, 100)
+if gambleNum > 2:
+  reward = true
+else:
+  reward = false
