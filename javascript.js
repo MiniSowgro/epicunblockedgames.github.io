@@ -5,7 +5,13 @@ function getRandomArbitrary(min, max) {
 }
 
 function clicked() {
-  window.alert("Waiting in queue... do not close this window.")
+  var gambleNum = Math.random(1, 100)
+  if gambleNum > 2{
+    reward = true
+  }
+  else {
+    reward = false
+  }
 }
 
 var img = document.createElement("img")
@@ -14,7 +20,7 @@ document.body.appendChild(img)
 
 button.addEventListener('click', clicked)
 
-gambleNum = Math.random(1, 100)
+var gambleNum = Math.random(1, 100)
 if gambleNum > 2:
   reward = true
 else:
