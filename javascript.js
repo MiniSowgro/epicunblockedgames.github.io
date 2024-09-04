@@ -5,8 +5,8 @@ function getRandomArbitrary(min, max) {
 }
 
 function clicked() {
-  var gambleNum = Math.random(1, 100)
-  if gambleNum > 2{
+  var gambleNum = Math.random() * 100
+  if gambleNum > 5{
     reward = true
   }
   else {
