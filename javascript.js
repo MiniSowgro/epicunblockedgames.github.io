@@ -20,8 +20,4 @@ document.body.appendChild(img)
 
 button.addEventListener('click', clicked)
 
-var gambleNum = Math.random(1, 100)
-if gambleNum > 2:
-  reward = true
-else:
-  reward = false
+var epicvar
